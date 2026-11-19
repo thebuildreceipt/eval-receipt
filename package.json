@@ -1,0 +1,24 @@
+{
+  "name": "eval-receipt",
+  "version": "1.0.0",
+  "description": "Evals for AI features in 8 minutes: a 12-case labeled dataset, code-graded checks, and a runner that prints score and cost. Example: the issue-triage prompt.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "eval": "npm run build && node dist/src/run.js",
+    "eval:dry": "npm run build && node dist/src/run.js --dry-run"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

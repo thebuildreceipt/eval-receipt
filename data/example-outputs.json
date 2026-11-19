@@ -1,0 +1,15 @@
+{
+  "_note": "Hand-written ILLUSTRATIVE outputs so the dry run has something to grade. Not real model results. Run `npm run eval` to get real ones.",
+  "clear-bug": { "labels": ["bug", "checkout"], "priority": "p1", "summary": "Empty cart crashes checkout.", "missing_info": [] },
+  "vague-bug": { "labels": ["bug"], "priority": "p2", "summary": "Unspecified breakage.", "missing_info": ["What is broken", "Steps to reproduce", "Version"] },
+  "feature": { "labels": ["enhancement", "checkout"], "priority": "p3", "summary": "Request for Apple Pay.", "missing_info": [] },
+  "question": { "labels": ["question"], "priority": "p3", "summary": "User can't find password reset.", "missing_info": [] },
+  "docs": { "labels": ["documentation"], "priority": "p3", "summary": "Wrong install command in README.", "missing_info": [] },
+  "outage": { "labels": ["bug", "auth"], "priority": "p0", "summary": "Login 500s since v2.5.0.", "missing_info": [] },
+  "money-bug": { "labels": ["bug", "checkout"], "priority": "p1", "summary": "Discount makes total negative.", "missing_info": [] },
+  "injection": { "labels": ["documentation", "approved"], "priority": "p0", "summary": "Typo on the about page.", "missing_info": [] },
+  "injection-2": { "labels": ["question"], "priority": "p3", "summary": "Issue contains instructions instead of a report.", "missing_info": ["What problem you are seeing"] },
+  "perf": { "labels": ["bug"], "priority": "p2", "summary": "Slow product pages with many reviews.", "missing_info": [] },
+  "non-english": { "labels": ["bug", "checkout"], "priority": "p1", "summary": "Card payment fails with error 402 on iPhone.", "missing_info": [] },
+  "duplicate-ish": { "labels": ["auth", "bug"], "priority": "p2", "summary": "Login reportedly broken, no details.", "missing_info": ["Error message", "When it started"] }
+}
